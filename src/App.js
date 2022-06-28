@@ -1,3 +1,9 @@
-export default function App() {
-  return <h1 className="text-3xl font-bold">Hello world!</h1>;
+import React from 'react'
+
+function App() {
+  return (
+    <div className='underline font-bold'>Hello World</div>
+  )
 }
+
+export default App
